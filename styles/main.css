@@ -48,13 +48,25 @@ body {
   margin: 0 auto;
 }
 
-.section_heading, .partners__heading, .about__heading {
+.section_heading, .activity__heading, .partners__heading, .about__heading {
   font-weight: bold;
   font-size: 26px;
   margin-bottom: 35px;
 }
 
-.light_text, .partners__text, .about__card__text {
+.activity__form__input::-moz-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.activity__form__input:-ms-input-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.light_text, .activity__form__input::placeholder, .partners__text, .about__card__text {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 300;
@@ -133,4 +145,79 @@ body {
   font-weight: bold;
   border: 2px solid #ff4e50;
   margin: 35px auto 115px;
+}
+
+.activity {
+  width: 70%;
+  margin: 0 auto;
+}
+.activity__cards {
+  margin-bottom: 90px;
+}
+.activity__card {
+  height: 310px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+  background-image: url("../img/activity-1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-size: 22px;
+  font-weight: bold;
+}
+.activity__card.card-2 {
+  background-image: url("../img/activity-2.png");
+}
+.activity__card.card-3 {
+  background-image: url("../img/activity-3.png");
+}
+.activity__card.card-4 {
+  background-image: url("../img/activity-4.png");
+}
+.activity__card.card-5 {
+  background-image: url("../img/activity-5.png");
+}
+.activity__card.card-6 {
+  background-image: url("../img/activity-6.png");
+}
+.activity__card.card-7 {
+  background-image: url("../img/activity-7.png");
+}
+.activity__text {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+.activity__form {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.activity__form__input {
+  height: 40px;
+  width: 300px;
+  border: 1px solid #d4d4d4;
+  padding-left: 15px;
+  margin-right: 10px;
+}
+.activity__form__input::-moz-placeholder {
+  color: #d4d4d4;
+}
+.activity__form__input:-ms-input-placeholder {
+  color: #d4d4d4;
+}
+.activity__form__input::placeholder {
+  color: #d4d4d4;
+}
+.activity__form__submit {
+  height: 40px;
+  width: 175px;
+  background: #ff4e50;
+  color: #ffffff;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
 }/*# sourceMappingURL=main.css.map */

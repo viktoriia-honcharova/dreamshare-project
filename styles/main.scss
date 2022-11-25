@@ -189,3 +189,98 @@ body {
     margin: 35px auto 115px;
   }
 }
+
+.activity {
+  width: 70%;
+  margin: 0 auto;
+
+  &__heading {
+    @extend .section_heading;
+  }
+
+  &__cards {
+    margin-bottom: 90px;
+  }
+
+  &__card {
+    height: 310px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+
+    background: {
+      image: url("../img/activity-1.png");
+      size: cover;
+      position: center;
+      repeat: no-repeat;
+    }
+
+    font: {
+      size: 22px;
+      weight: bold;
+    }
+  }
+
+  &__card.card-2 {
+    background-image: url("../img/activity-2.png");
+  }
+
+  &__card.card-3 {
+    background-image: url("../img/activity-3.png");
+  }
+
+  &__card.card-4 {
+    background-image: url("../img/activity-4.png");
+  }
+
+  &__card.card-5 {
+    background-image: url("../img/activity-5.png");
+  }
+
+  &__card.card-6 {
+    background-image: url("../img/activity-6.png");
+  }
+
+  &__card.card-7 {
+    background-image: url("../img/activity-7.png");
+  }
+
+  &__text {
+    font: {
+      size: 18px;
+      family: "Roboto", sans-serif;
+      weight: 300;
+    }
+  }
+
+  &__form {
+    text-align: center;
+    margin-bottom: 100px;
+
+    &__input {
+      @include size(40px, 300px);
+      border: 1px solid #d4d4d4;
+      padding-left: 15px;
+      margin-right: 10px;
+
+      &::placeholder {
+        @extend .light_text;
+        color: #d4d4d4;
+      }
+    }
+
+    &__submit {
+      @include size(40px, 175px);
+      background: #ff4e50;
+      color: #ffffff;
+      border: none;
+      font: {
+        size: 14px;
+        weight: bold;
+      }
+    }
+  }
+}

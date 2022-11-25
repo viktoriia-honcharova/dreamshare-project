@@ -220,4 +220,34 @@ body {
   border: none;
   font-size: 14px;
   font-weight: bold;
+}
+
+.footer {
+  border-top: 2px solid #ff4e50;
+  padding: 35px 0;
+}
+.footer__container {
+  width: 80%;
+  margin: 0 auto;
+}
+.footer__heading {
+  color: #ff4e50;
+  font-size: 16px;
+  font-weight: 400;
+}
+.footer__head {
+  color: #444444;
+  font-weight: bold;
+  font-size: 14px;
+}
+.footer__text {
+  color: #999999;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+}
+.footer__designed {
+  color: #cccccc;
+  font-size: 10px;
+  font-weight: bold;
 }/*# sourceMappingURL=main.css.map */

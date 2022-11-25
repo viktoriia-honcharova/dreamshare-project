@@ -284,3 +284,47 @@ body {
     }
   }
 }
+
+.footer {
+  border-top: 2px solid #ff4e50;
+  padding: 35px 0;
+
+  &__container {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  &__heading {
+    color: #ff4e50;
+
+    font: {
+      size: 16px;
+      weight: 400;
+    }
+  }
+
+  &__head {
+    color: #444444;
+    font: {
+      weight: bold;
+      size: 14px;
+    }
+  }
+
+  &__text {
+    color: #999999;
+    font: {
+      family: "Roboto", sans-serif;
+      weight: 300;
+      size: 14px;
+    }
+  }
+
+  &__designed {
+    color: #cccccc;
+    font: {
+      size: 10px;
+      weight: bold;
+    }
+  }
+}

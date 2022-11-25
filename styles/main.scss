@@ -65,17 +65,29 @@ body {
   }
 }
 
+.section_heading {
+  font: {
+    weight: bold;
+    size: 26px;
+  }
+  margin-bottom: 35px;
+}
+
+.light_text {
+  font: {
+    family: "Roboto", sans-serif;
+    size: 14px;
+    weight: 300;
+  }
+}
+
 .about {
   padding: 89px 0 95px;
   width: 65%;
   margin: 0 auto;
 
   &__heading {
-    font: {
-      weight: bold;
-      size: 26px;
-    }
-    margin-bottom: 35px;
+    @extend .section_heading;
   }
 
   &__card {
@@ -109,11 +121,7 @@ body {
     }
 
     &__text {
-      font: {
-        family: "Roboto", sans-serif;
-        size: 14px;
-        weight: 300;
-      }
+      @extend .light_text;
     }
   }
 
@@ -123,5 +131,61 @@ body {
 
   &__card.card-3 {
     background-image: url("../img/about-img-3.png");
+  }
+}
+
+.partners {
+  width: 65%;
+  margin: 0 auto;
+
+  &__heading {
+    @extend .section_heading;
+  }
+
+  &__avatar {
+    @include size(120px, 120px);
+    background: {
+      image: url("../img/avatar-1.png");
+      size: cover;
+      position: center;
+      repeat: no-repeat;
+    }
+    margin: 0 auto;
+  }
+
+  &__avatar.avatar-2 {
+    background-image: url("../img/avatar-2.png");
+  }
+
+  &__avatar.avatar-3 {
+    background-image: url("../img/avatar-3.png");
+  }
+
+  &__avatar.avatar-4 {
+    background-image: url("../img/avatar-4.png");
+  }
+
+  &__name {
+    font: {
+      size: 14px;
+      weight: bold;
+    }
+    margin-top: 17px;
+  }
+
+  &__text {
+    @extend .light_text;
+    margin-top: 12px;
+  }
+
+  &__button {
+    @include size(40px, 220px);
+    color: #ff4e50;
+    font: {
+      size: 12;
+      weight: bold;
+    }
+    border: 2px solid #ff4e50;
+    margin: 35px auto 115px;
   }
 }

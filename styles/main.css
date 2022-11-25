@@ -48,15 +48,22 @@ body {
   margin: 0 auto;
 }
 
+.section_heading, .partners__heading, .about__heading {
+  font-weight: bold;
+  font-size: 26px;
+  margin-bottom: 35px;
+}
+
+.light_text, .partners__text, .about__card__text {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+
 .about {
   padding: 89px 0 95px;
   width: 65%;
   margin: 0 auto;
-}
-.about__heading {
-  font-weight: bold;
-  font-size: 26px;
-  margin-bottom: 35px;
 }
 .about__card {
   height: 400px;
@@ -81,14 +88,49 @@ body {
   font-size: 24px;
   font-weight: bold;
 }
-.about__card__text {
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  font-weight: 300;
-}
 .about__card.card-2 {
   background-image: url("../img/about-img-2.png");
 }
 .about__card.card-3 {
   background-image: url("../img/about-img-3.png");
+}
+
+.partners {
+  width: 65%;
+  margin: 0 auto;
+}
+.partners__avatar {
+  height: 120px;
+  width: 120px;
+  background-image: url("../img/avatar-1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+.partners__avatar.avatar-2 {
+  background-image: url("../img/avatar-2.png");
+}
+.partners__avatar.avatar-3 {
+  background-image: url("../img/avatar-3.png");
+}
+.partners__avatar.avatar-4 {
+  background-image: url("../img/avatar-4.png");
+}
+.partners__name {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 17px;
+}
+.partners__text {
+  margin-top: 12px;
+}
+.partners__button {
+  height: 40px;
+  width: 220px;
+  color: #ff4e50;
+  font-size: 12;
+  font-weight: bold;
+  border: 2px solid #ff4e50;
+  margin: 35px auto 115px;
 }/*# sourceMappingURL=main.css.map */

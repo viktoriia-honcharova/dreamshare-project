@@ -41,7 +41,6 @@ body {
       weight: bold;
       size: 52;
     }
-    width: 470px;
     margin: 153px auto 28px;
   }
 
@@ -325,6 +324,117 @@ body {
     font: {
       size: 10px;
       weight: bold;
+    }
+  }
+}
+
+@media (max-width: 990px) {
+  .about {
+    width: 100%;
+  }
+
+  .partners {
+    width: 100%;
+  }
+
+  .activity {
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .hero {
+    height: 540px;
+
+    &__small-name {
+      margin-top: 97px;
+      font: {
+        weight: bold;
+        size: 20px;
+      }
+    }
+
+    &__heading {
+      margin-top: 26px;
+      font-size: 30px;
+    }
+
+    &__second-heading {
+      font-size: 18px;
+      width: 280px;
+    }
+
+    &__main-button {
+      width: 280px;
+    }
+  }
+
+  .about {
+    padding: 35px 0 35px;
+
+    &__heading {
+      margin-bottom: 15px;
+      font-size: 22px;
+    }
+
+    &__card {
+      height: 300px;
+      margin-bottom: 10px;
+    }
+  }
+
+  .partners {
+    &__heading {
+      margin-bottom: 15px;
+      font-size: 22px;
+    }
+
+    &__button {
+      width: 280px;
+      margin: 35px auto;
+    }
+  }
+
+  .activity {
+    &__heading {
+      margin-bottom: 15px;
+      font-size: 22px;
+      width: 280px;
+    }
+
+    &__card {
+      height: 120px;
+    }
+
+    &__cards {
+      margin-bottom: 35px;
+    }
+
+    &__heading {
+      margin: 0 auto 9px;
+    }
+
+    &__form {
+      margin-bottom: 40px;
+
+      &__input {
+        margin: 0 auto 10px;
+        width: 280px;
+      }
+
+      &__submit {
+        width: 280px;
+      }
+    }
+  }
+
+  .footer {
+    &__container {
+      text-align: center;
+    }
+
+    &__text {
+      margin: 0 5px 6px;
     }
   }
 }

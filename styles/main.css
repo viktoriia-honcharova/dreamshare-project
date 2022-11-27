@@ -30,7 +30,6 @@ body {
 .hero__heading {
   font-weight: bold;
   font-size: 52;
-  width: 470px;
   margin: 153px auto 28px;
 }
 .hero__second-heading {
@@ -250,4 +249,86 @@ body {
   color: #cccccc;
   font-size: 10px;
   font-weight: bold;
+}
+
+@media (max-width: 990px) {
+  .about {
+    width: 100%;
+  }
+  .partners {
+    width: 100%;
+  }
+  .activity {
+    width: 100%;
+  }
+}
+@media (max-width: 400px) {
+  .hero {
+    height: 540px;
+  }
+  .hero__small-name {
+    margin-top: 97px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .hero__heading {
+    margin-top: 26px;
+    font-size: 30px;
+  }
+  .hero__second-heading {
+    font-size: 18px;
+    width: 280px;
+  }
+  .hero__main-button {
+    width: 280px;
+  }
+  .about {
+    padding: 35px 0 35px;
+  }
+  .about__heading {
+    margin-bottom: 15px;
+    font-size: 22px;
+  }
+  .about__card {
+    height: 300px;
+    margin-bottom: 10px;
+  }
+  .partners__heading {
+    margin-bottom: 15px;
+    font-size: 22px;
+  }
+  .partners__button {
+    width: 280px;
+    margin: 35px auto;
+  }
+  .activity__heading {
+    margin-bottom: 15px;
+    font-size: 22px;
+    width: 280px;
+  }
+  .activity__card {
+    height: 120px;
+  }
+  .activity__cards {
+    margin-bottom: 35px;
+  }
+  .activity__heading {
+    margin: 0 auto 9px;
+  }
+  .activity__form {
+    margin-bottom: 40px;
+  }
+  .activity__form__input {
+    margin: 0 auto 10px;
+    width: 280px;
+  }
+  .activity__form__submit {
+    width: 280px;
+  }
+  .footer__container {
+    text-align: center;
+  }
+  .footer__text {
+    margin: 0 5px 6px;
+  }
 }/*# sourceMappingURL=main.css.map */
